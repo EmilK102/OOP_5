@@ -1,8 +1,20 @@
 #include <iostream>
-#include "Example1.h"
-#include "Example2.h"
-int main() {
-	setlocale(LC_ALL, "");
-	Example1();
-	return 0;
+using namespace std;
+
+void override_methods();
+void destructors();
+void dynamiccast();
+void isAClass();
+void funcs();
+void pointers();
+
+int main()
+{
+    setlocale(LC_ALL, "");
+    override_methods();
+    destructors();
+    dynamiccast();
+    isAClass();
+    funcs();
+    pointers();
 }
